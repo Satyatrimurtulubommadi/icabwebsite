@@ -1,0 +1,44 @@
+div ul li a{
+    cursor: pointer;
+    transition-duration: 3s;
+    
+}
+div ul li a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.bg{
+    background-image:url('1.jpeg');
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:auto;
+}
+*{
+    box-sizing: border-box;
+}
+.card{
+width: 85%;
+height: auto;
+}
+
+.single-icon i{
+    font-size: 50px;
+}
+.single-icon h3{
+    font-size: 17px;
+}
+.single-icon i:hover{
+    color: blue;
+}
+
+.bai{
+    background-image: url("bgi.webp");
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
